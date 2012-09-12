@@ -12,6 +12,7 @@ Current changes:
 * Lookup in "Foreign Movies" category for all kinds of releases (dvdr, cam, ts, dvdrip, tc, r5, scr, 720p, 10p, bd50) on newznab provider
 * Use this repository for automatic git based updates
 * Don't score down releases with "german"-word
+* Removed score boost for release-groups which are famous for english releases (TODO: german release groups)
 
 [Original Readme](https://github.com/RuudBurger/CouchPotatoServer/blob/master/README.md)
 

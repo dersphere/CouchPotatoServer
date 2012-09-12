@@ -16,8 +16,8 @@ name_scores = [
     # Language / Subs
     'french:-10', 'spanish:-10', 'swesub:-20', 'danish:-10', 'dutch:-10',
     # Release groups
-    'imbt:1', 'cocain:1', 'vomit:1', 'fico:1', 'arrow:1', 'pukka:1', 'prism:1', 'devise:1', 'esir:1', 'ctrlhd:1',
-    'metis:10', 'diamond:10', 'wiki:10', 'cbgb:10', 'crossbow:1', 'sinners:10', 'amiable:10', 'refined:1', 'twizted:1', 'felony:1', 'hubris:1', 'machd:1',
+    # fixme(sphere): Removed famous english-based release groups. TODO: needs german ones
+
     # Extras
     'extras:-40', 'trilogy:-40',
 ]
