@@ -40,6 +40,10 @@ def nameScore(name, year):
     if str(year) in name:
         score = score + 5
 
+    # points if the year +1 is correct (sometimes english and german years differs +1)
+    if str(int(year) + 1) in name:
+        score = score + 5
+
     # Contains preferred word
     nzb_words = re.split('\W+', simplifyString(name))
     preferred_words = [x.strip() for x in Env.setting('preferred_words', section = 'searcher').split(',')]
