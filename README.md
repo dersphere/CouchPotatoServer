@@ -7,11 +7,12 @@ Once a movie is found, it will send it to SABnzbd or download the torrent to a s
 This is a fork of [CouchPotato Server](https://github.com/RuudBurger/CouchPotatoServer) for german users.
 
 Current changes:
+* Default settings: Don't ignore "german", require one of "dl, german, deutsch, ger", ignore any of "english, englisch"
 * Use German metadata from tmbd
 * Lookup in "Foreign Movies" category for all kinds of releases (dvdr, cam, ts, dvdrip, tc, r5, scr, 720p, 10p, bd50) on newznab provider
 * Use this repository for automatic git based updates
 * Don't score down releases with "german"-word
 
-[Original Readme](https://github.com/RuudBurger/CouchPotatoServer/README.md)
+[Original Readme](https://github.com/RuudBurger/CouchPotatoServer/blob/master/README.md)
 
 - sphere
