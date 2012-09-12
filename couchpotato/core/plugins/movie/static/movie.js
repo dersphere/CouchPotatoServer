@@ -355,9 +355,8 @@ var IMDBAction = new Class({
 		self.id = self.movie.get('identifier');
 
 		self.el = new Element('a.imdb', {
-			'title': 'Go to the IMDB page of ' + self.movie.getTitle(),
-			'href': 'http://www.imdb.com/title/'+self.id+'/',
-			'target': '_blank'
+			'title': 'Go to the IMDB.de page of ' + self.movie.getTitle(),
+			'href': 'http://www.imdb.de/title/'+self.id+'/'
 		});
 
 		if(!self.id) self.disable();

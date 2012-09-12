@@ -13,7 +13,8 @@ Current changes:
 * Use this repository for automatic git based updates
 * Don't score down releases with "german"-word
 * Removed score boost for release-groups which are famous for english releases (TODO: german release groups)
-* also increase release-score if movie year and release year differ just one year
+* Also increase release-score if movie year and release year differ just one year
+* Changed movie related imdb-link from imdb.com to imdb.de
 
 [Original Readme](https://github.com/RuudBurger/CouchPotatoServer/blob/master/README.md)
 
